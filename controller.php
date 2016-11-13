@@ -6,10 +6,6 @@
 
 
 	function validarEdad (){
-	 	$diaac = date("d"); 
-        $mesac = date("m"); 
-        $anioac = date("Y"); 
-
         $dia = $_REQUEST["dia"]; 
         $mes = $_REQUEST["mes"]; 
         $anio = $_REQUEST["anio"]; 
