@@ -22,12 +22,10 @@ Tu fecha de nacimiento:
                 </select> 
             <select name="anio">'; 
             <?php 
-
-            $o = 1960;
-            while($o <= date("Y")){ 
-                echo '<option>'.$o++.'</option>';
-            } 
-             
+                $o = 1960;
+                while($o <= date("Y")){ 
+                    echo '<option>'.$o++.'</option>';
+                } 
             ?>     
             </select> 
         </form>
